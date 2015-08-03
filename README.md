@@ -1,4 +1,4 @@
 # USBASP
-USBASP AVR InSytemProgramer (ISP)
-Based on original USBasp from Thomas Fischl
-I used KiCAD for designing schematics and PCB
+<head>USBASP AVR InSytemProgramer (ISP).</head>
+<br>Based on original USBasp from Thomas Fischl.
+<br>I used KiCAD for designing schematics and PCB.
