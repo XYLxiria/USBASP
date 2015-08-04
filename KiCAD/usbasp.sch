@@ -60,10 +60,6 @@ Text GLabel 2650 5600 2    39   Input ~ 0
 MISO
 Text GLabel 2650 5500 2    39   Input ~ 0
 MOSI
-Text GLabel 2650 6800 2    39   Input ~ 0
-RXD
-Text GLabel 3100 6900 2    39   Input ~ 0
-TXD
 $Comp
 L VCC #PWR01
 U 1 1 55BF17CC
@@ -193,10 +189,6 @@ Text GLabel 3600 6200 0    39   Input ~ 0
 SCK
 Text GLabel 3600 6300 0    39   Input ~ 0
 MISO
-Text GLabel 4100 6000 2    39   Input ~ 0
-TXD
-Text GLabel 4100 6100 2    39   Input ~ 0
-RXD
 Wire Wire Line
 	4100 6200 4300 6200
 Wire Wire Line
@@ -559,21 +551,6 @@ Text GLabel 4350 7000 0    39   Input ~ 0
 Reset
 Text GLabel 4350 7100 0    39   Input ~ 0
 RST_SS
-$Comp
-L R R8
-U 1 1 55BF68E1
-P 2850 6900
-F 0 "R8" V 2930 6900 50  0000 C CNN
-F 1 "1K" V 2850 6900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2780 6900 30  0001 C CNN
-F 3 "" H 2850 6900 30  0000 C CNN
-	1    2850 6900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2700 6900 2650 6900
-Wire Wire Line
-	3000 6900 3100 6900
 $Comp
 L R R11
 U 1 1 55BF7CCD
